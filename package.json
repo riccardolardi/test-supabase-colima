@@ -1,11 +1,10 @@
 {
   "scripts": {
-    "start": "ts-node --compiler-options {\"module\":\"CommonJS\"} index.ts"
+    "start": "node ./index.js"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.15.0",
     "dotenv": "^16.0.3",
-    "supabase": "^1.50.0",
-    "ts-node": "^10.9.1"
+    "supabase": "^1.50.0"
   }
 }
