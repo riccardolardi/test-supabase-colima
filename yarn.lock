@@ -9,17 +9,17 @@
   dependencies:
     cross-fetch "^3.1.5"
 
-"@supabase/gotrue-js@^2.22.0":
-  version "2.22.1"
-  resolved "https://registry.yarnpkg.com/@supabase/gotrue-js/-/gotrue-js-2.22.1.tgz#2329257ba8f08043cdf49082376fc48b1d9ac0ee"
-  integrity sha512-hwM8dFzGqqU/xqv9coxIpujSU++bs2Vw6EiZZSeUdGZkeKQ07YXFlNG56aQKkwnpHRIQjHSgZ2bAoVX1n9Owbw==
+"@supabase/gotrue-js@^2.23.0":
+  version "2.23.0"
+  resolved "https://registry.yarnpkg.com/@supabase/gotrue-js/-/gotrue-js-2.23.0.tgz#62e19a174e1320178e7db4e6646e07c16adc91be"
+  integrity sha512-N6o+MMGsPDbdiz0R0Oy9GlgefYFjJJvoBduR16s8c1H3yG2jp6jq+pMEP18P1bg7uk2DljEjyBnVN7Wj7SJ2Zw==
   dependencies:
     cross-fetch "^3.1.5"
 
 "@supabase/postgrest-js@^1.1.1":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@supabase/postgrest-js/-/postgrest-js-1.5.0.tgz#e19d7f21f076e60fc248ac3ebb3c369bc95e2f17"
-  integrity sha512-YaU1HBE43Ba+FGmnXuvK+xYeHylkDKd04PYeKDUCoE2bUHoxSDqnjHbOwmLjnusGZi3X1MrFeUH1Wwb4bHYyIg==
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@supabase/postgrest-js/-/postgrest-js-1.6.0.tgz#e9a225e62a48dd76c61082152007baebf1b7810c"
+  integrity sha512-HCphMC6KjtoaGcowSlkKRVKBOlNpmKWE2CwoumMwwsfhnRxplIy1zBiIYIL3zIYo/Bm20H/1C6enqjBeTvSwXg==
   dependencies:
     cross-fetch "^3.1.5"
 
@@ -40,21 +40,21 @@
     cross-fetch "^3.1.5"
 
 "@supabase/supabase-js@^2.15.0":
-  version "2.20.0"
-  resolved "https://registry.yarnpkg.com/@supabase/supabase-js/-/supabase-js-2.20.0.tgz#a2739ab0c1781a5eb9abbbd18452ddf13ecc64f0"
-  integrity sha512-6sNX4WEaVBbmOS1K2U3PcpAhp0FcjVo1FRSEoj4N+NZ6DIokX+yut8IBhF176pg5kFCdFIL2wyNhf3SltREmWw==
+  version "2.21.0"
+  resolved "https://registry.yarnpkg.com/@supabase/supabase-js/-/supabase-js-2.21.0.tgz#a6bc5a2a4479adc6934539723469ffddd1d6dbab"
+  integrity sha512-FW3ZzBoc4orSgfX0dXrmJoXAcI/hiekmqXTkN64vjtUF2Urp3UjyAf71UTtV9Jl6ejHoe3K++e0+Rg9zKUJh5w==
   dependencies:
     "@supabase/functions-js" "^2.1.0"
-    "@supabase/gotrue-js" "^2.22.0"
+    "@supabase/gotrue-js" "^2.23.0"
     "@supabase/postgrest-js" "^1.1.1"
     "@supabase/realtime-js" "^2.7.2"
     "@supabase/storage-js" "^2.5.1"
     cross-fetch "^3.1.5"
 
 "@types/node@*":
-  version "18.15.11"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.15.11.tgz#b3b790f09cb1696cffcec605de025b088fa4225f"
-  integrity sha512-E5Kwq2n4SbMzQOn6wnmBjuK9ouqlURrcZDVfbo9ftDDTFt3nk7ZKK4GMOzoYgnpQJKcxwQw+lGaBvvlMo0qN/Q==
+  version "18.15.13"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.15.13.tgz#f64277c341150c979e42b00e4ac289290c9df469"
+  integrity sha512-N+0kuo9KgrUQ1Sn/ifDXsvg0TTleP7rIy4zOBGECxAljqvqfqpTfzx0Q1NUedOixRMBfe2Whhb056a42cWs26Q==
 
 "@types/phoenix@^1.5.4":
   version "1.5.6"
@@ -258,6 +258,11 @@ npm-normalize-package-bin@^3.0.0:
   resolved "https://registry.yarnpkg.com/npm-normalize-package-bin/-/npm-normalize-package-bin-3.0.0.tgz#6097436adb4ef09e2628b59a7882576fe53ce485"
   integrity sha512-g+DPQSkusnk7HYXr75NtzkIP4+N81i3RPsGFidF3DzHd9MT9wWngmqoeg/fnHFz5MNdtG4w03s+QnhewSLTT2Q==
 
+prettier@^2.8.7:
+  version "2.8.7"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.7.tgz#bb79fc8729308549d28fe3a98fce73d2c0656450"
+  integrity sha512-yPngTo3aXUUmyuTjeTUT75txrf+aMh9FiD7q9ZE/i6r0bPb22g4FsE6Y338PQX1bmfy08i9QQCB7/rcUAVntfw==
+
 read-cmd-shim@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/read-cmd-shim/-/read-cmd-shim-4.0.0.tgz#640a08b473a49043e394ae0c7a34dd822c73b9bb"
@@ -269,9 +274,9 @@ signal-exit@^3.0.7:
   integrity sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==
 
 supabase@^1.50.0:
-  version "1.50.4"
-  resolved "https://registry.yarnpkg.com/supabase/-/supabase-1.50.4.tgz#1fb2d62018cc710c790b99ce10e9ceac3eb6001c"
-  integrity sha512-oPnU1YMLdJ8M3OtU7MfoChK/NS2MQeQln9LRPgjATSPToAzpO1WU5BMhJ174FhdyOUjk+VaeD5hcDRC7M4onAw==
+  version "1.50.11"
+  resolved "https://registry.yarnpkg.com/supabase/-/supabase-1.50.11.tgz#882206ec3ad09eaf1ecaaa5ec59632f13211c5c4"
+  integrity sha512-70L23rGRm3TpE8WMZHrvkDK6xXlnftFdKmRb2qdS69wtqkjN0pWq1YXmNaNEdSunUdsc8B+kraJaH1MosGrxfg==
   dependencies:
     bin-links "^4.0.1"
     node-fetch "^3.2.10"
