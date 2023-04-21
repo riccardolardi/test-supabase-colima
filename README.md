@@ -5,10 +5,11 @@ Running Colima with this config:
 ```
 PROFILE    STATUS     ARCH       CPUS    MEMORY    DISK     RUNTIME    ADDRESS
 default    Running    aarch64    4       6GiB      60GiB    docker
-````
+```
+
 And latest `supabase` and `@supabase/supabase-js`
 
-Creation of new users via `supabase.auth.admin.createUser()` or `supabase.auth.signUp()` will result in following error:
+Using `supabase` client will result in following error:
 
 ```
 AuthRetryableFetchError: fetch failed
@@ -24,4 +25,3 @@ AuthRetryableFetchError: fetch failed
   status: 0
 }
 ```
-
